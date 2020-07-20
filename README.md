@@ -40,16 +40,16 @@ To get the id of a guild open your client settings -> Appearance and then enable
 
 | Variable | Explanation |
 | --- | --- |
-| originalGuildId | The id of the guild you want to clone. Can be left blank if a guildData.json file already exists. |
-| newGuildId | The id of the new guild you want to clone to. |
-| newGuildAdminRoleId | The id of a role with administrator permissions. The bot needs to have this role on the new guild! You can manually create a new role called 'guildcopy' and the script will automatically use it. If you do so, just leave this field empty. |
+| originalGuildId | A id da guilda que você quer clonar. Pode ser deixado em branco se um arquivo guildData.json já existir. |
+| newGuildId | A id da nova guilda que você quer clonar. |
+| newGuildAdminRoleId | A id de um papel com permissões de administrador. O robô precisa ter esse papel na nova guilda! Você pode criar manualmente uma nova função chamada 'guildcopy' e o script irá usá-lo automaticamente. Se você fizer isso, deixe este campo vazio. |
 | copyEmojis | default: false - Set to true to copy emojis (see also [Common Behaviour](https://github.com/Jisagi/Discord-guild-copy#common-behaviour)) |
 | copyBans | default: false - set to true to copy banned users. The bot needs to have the BAN_MEMBERS permission on the original guild if you enable this! |
 | language | default: en - Set this to any supported language from the `translations` folder |
 | output | default: all - Possible values: `all` for everything, `error` for errors only, `none` for no output at all |
 | djsVersionCheck | default: true - Checks the local discord.js version by its commit hash. If you periodically run this script, you might want to disable this |
 | debug | default: false - Set to true for a more detailed general and error output e.g. when creating an issue |
-| token | The bot token. The bot does not need any permissions on the original guild (only exception: copyBans=true). |
+| token | O token do robô. O bot não precisa de permissões na guilda original (única exceção: copyBans=true). |
 
 ## Common Behaviour
 - New guild cleanup
